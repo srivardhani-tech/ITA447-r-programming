@@ -1,0 +1,12 @@
+seq<-c(35,45,62,1,4,3,0,6)
+print(max(seq))
+print(min(seq))
+
+output:
+
+> seq<-c(35,45,62,1,4,3,0,6)
+> print(max(seq))
+[1] 62
+> print(min(seq))
+[1] 0
+> 
