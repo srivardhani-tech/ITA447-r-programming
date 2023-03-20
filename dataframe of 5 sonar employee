@@ -1,0 +1,51 @@
+id<-c(1:5)
+name<-c("nithya","deeksha","pugal","pradeep","raju")
+occupation<-c("data entry","error detection","error correction","creator","team leader")
+employee<-c(1921:1925)
+emp<-data.frame(id,name,occupation,employee)
+print(emp)
+summary(emp)
+r=data.frame(emp$occupation)
+print(r)
+emp$salary<-c("15k","20k","12k","33k","45k")
+print(emp)
+
+output:
+
+> id<-c(1:5)
+> name<-c("nithya","deeksha","pugal","pradeep","raju")
+> occupation<-c("data entry","error detection","error correction","creator","team leader")
+> employee<-c(1921:1925)
+> emp<-data.frame(id,name,occupation,employee)
+> print(emp)
+  id    name       occupation employee
+1  1  nithya       data entry     1921
+2  2 deeksha  error detection     1922
+3  3   pugal error correction     1923
+4  4 pradeep          creator     1924
+5  5    raju      team leader     1925
+> summary(emp)
+       id        name            occupation           employee   
+ Min.   :1   Length:5           Length:5           Min.   :1921  
+ 1st Qu.:2   Class :character   Class :character   1st Qu.:1922  
+ Median :3   Mode  :character   Mode  :character   Median :1923  
+ Mean   :3                                         Mean   :1923  
+ 3rd Qu.:4                                         3rd Qu.:1924  
+ Max.   :5                                         Max.   :1925  
+> r=data.frame(emp$occupation)
+> print(r)
+    emp.occupation
+1       data entry
+2  error detection
+3 error correction
+4          creator
+5      team leader
+> emp$salary<-c("15k","20k","12k","33k","45k")
+> print(emp)
+  id    name       occupation employee salary
+1  1  nithya       data entry     1921    15k
+2  2 deeksha  error detection     1922    20k
+3  3   pugal error correction     1923    12k
+4  4 pradeep          creator     1924    33k
+5  5    raju      team leader     1925    45k
+> 
