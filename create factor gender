@@ -1,0 +1,7 @@
+gender<-factor(c("male","female"))
+is.factor(gender)
+
+output:
+> gender<-factor(c("male","female"))
+> is.factor(gender)
+[1] TRUE
