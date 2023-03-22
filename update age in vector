@@ -1,0 +1,9 @@
+a<-c(40,25,34,33,21)
+a[1]<-33
+cat("the first element is ",a[1])
+
+output:
+> a<-c(40,25,34,33,21)
+> a[1]<-33
+> cat("the first element is ",a[1])
+the first element is 33 >
