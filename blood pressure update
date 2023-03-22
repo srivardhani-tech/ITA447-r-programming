@@ -1,0 +1,12 @@
+bloodpressure<-c(120.8,166.3,131.4,117.8)
+print(bloodpressure)
+bloodpressure<-bloodpressure+0.1
+print(bloodpressure)
+
+output:
+> bloodpressure<-c(120.8,166.3,131.4,117.8)
+> print(bloodpressure)
+[1] 120.8 166.3 131.4 117.8
+> bloodpressure<-bloodpressure+0.1
+> print(bloodpressure)
+[1] 120.9 166.4 131.5 117.9
