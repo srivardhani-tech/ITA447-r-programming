@@ -1,0 +1,20 @@
+lst<-list(c(1,2,3),c(2,4,6),c(3,6,9))
+if(length(unique(sapply(lst,length)))==1) {
+  cat("the length of the vector in the list  is equal")
+} else{
+  cat("the length is not equal")
+}
+sapply(lst,sum)
+
+output:
+
+> lst<-list(c(1,2,3),c(2,4,6),c(3,6,9))
+> if(length(unique(sapply(lst,length)))==1) {
++   cat("the length of the vector in the list  is equal")
++ } else{
++   cat("the length is not equal")
++ }
+the length of the vector in the list  is equal> sapply(lst,sum)
+[1]  6 12 18
+> 
+
