@@ -1,0 +1,10 @@
+temperature<-function(x)
+{
+return(x-273.15)
+}
+print(temperature(300))
+
+output:
+
+print(temperature(300))
+[1] 26.85
